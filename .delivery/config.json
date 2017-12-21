@@ -5,6 +5,9 @@
     "path": ".delivery/build_cookbook"
   },
   "delivery-truck": {
+    "publish": {
+      "chef_server": true
+    },
     "lint": {
       "enable_cookstyle": true
     }
